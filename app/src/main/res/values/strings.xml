@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Rohaan\'s Habit Tracker</string>
+    <string name="widget_name">Rohaan\'s Habits</string>
+    <string name="widget_description">Track your daily habits and see your progress</string>
+</resources>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_row_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/cell_container_1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/widget_cell_bg"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/habit_name_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:maxLines="2"
+            android:textColor="@color/widget_text_primary"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/today_container_1"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/widget_check_bg_off">
+
+                <ImageView
+                    android:id="@+id/today_check_icon_1"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_check"
+                    android:tint="@color/widget_text_primary"
+                    android:visibility="invisible" />
+            </FrameLayout>
+
+            <ImageView
+                android:layout_width="6dp"
+                android:layout_height="1dp"
+                android:contentDescription="@null"
+                android:src="@android:color/transparent" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/day_1_1"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginEnd="3dp"
+                    android:background="@drawable/widget_dot_off"
+                    android:contentDescription="@null" />
+
+                <ImageView
+                    android:id="@+id/day_1_2"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginEnd="3dp"
+                    android:background="@drawable/widget_dot_off"
+                    android:contentDescription="@null" />
+
+                <ImageView
+                    android:id="@+id/day_1_3"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginEnd="3dp"
+                    android:background="@drawable/widget_dot_off"
+                    android:contentDescription="@null" />
+
+                <ImageView
+                    android:id="@+id/day_1_4"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginEnd="3dp"
+                    android:background="@drawable/widget_dot_off"
+                    android:contentDescription="@null" />
+
+                <ImageView
+                    android:id="@+id/day_1_5"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginEnd="3dp"
+                    android:background="@drawable/widget_dot_off"
+                    android:contentDescription="@null" />
+
+                <ImageView
+                    android:id="@+id/day_1_6"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/widget_dot_off"
+                    android:contentDescription="@null" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/column_divider"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:background="@color/widget_surface"
+        android:contentDescription="@null" />
+
+    <LinearLayout
+        android:id="@+id/cell_container_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/widget_cell_bg"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/habit_name_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:maxLines="2"
+            android:textColor="@color/widget_text_primary"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/today_container_2"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/widget_check_bg_off">
+
+                <ImageView
+                    android:id="@+id/today_check_icon_2"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_check"
+                    android:tint="@color/widget_text_primary"
+                    android:visibility="invisible" />
+            </FrameLayout>
+
+            <ImageView
+                android:layout_width="6dp"
+                android:layout_height="1dp"
+                android:contentDescription="@null"
+                android:src="@android:color/transparent" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/day_2_1"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginEnd="3dp"
+                    android:background="@drawable/widget_dot_off"
+                    android:contentDescription="@null" />
+
+                <ImageView
+                    android:id="@+id/day_2_2"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginEnd="3dp"
+                    android:background="@drawable/widget_dot_off"
+                    android:contentDescription="@null" />
+
+                <ImageView
+                    android:id="@+id/day_2_3"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginEnd="3dp"
+                    android:background="@drawable/widget_dot_off"
+                    android:contentDescription="@null" />
+
+                <ImageView
+                    android:id="@+id/day_2_4"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginEnd="3dp"
+                    android:background="@drawable/widget_dot_off"
+                    android:contentDescription="@null" />
+
+                <ImageView
+                    android:id="@+id/day_2_5"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginEnd="3dp"
+                    android:background="@drawable/widget_dot_off"
+                    android:contentDescription="@null" />
+
+                <ImageView
+                    android:id="@+id/day_2_6"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/widget_dot_off"
+                    android:contentDescription="@null" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
